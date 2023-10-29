@@ -4,7 +4,14 @@ Nie do końca rozumiem w jaki sposób powinien być udokumentowany kod dołączo
 Poniżej zamieszczam jedynie opis zastosowanych rozwiązań. 
 
 ## Zadanie 1 - regulator PID 
-Dla mnie jako laika z dziedziny elektroniki polecenie tego zadania nie było jasne. Po kilku godzinach godzinach szukania przykładów i poznawania zasady działania regulatora PID nie byłem w stanie odpowiedzieć na pytanie jak sygnał sterujący wpływa na obiekt sterowany, czy zmienna "t" w matematycznej reprezentacji obiektu sterowanego na pewno odpowiada czasowi i wiele innych. Niemniej jednak załączam swoją próbę realizacji tego zadania w pliku `./zad2/pid.c`
+Dla mnie jako laika z dziedziny elektroniki polecenie tego zadania nie było jasne.
+Po kilku godzinach szukania przykładów i poznawania zasady działania regulatora PID nie byłem w stanie odpowiedzieć na pytanie jak sygnał sterujący wpływa na obiekt sterowany,
+czy zmienna "t" w matematycznej reprezentacji obiektu sterowanego na pewno odpowiada czasowi i wiele innych. Niemniej jednak załączam swoją próbę realizacji tego zadania w pliku `./zad2/pid.c`
+
+Wydawało mi się, że funkcja napisana w tym pliku realizuje działanie tego regulatora,
+niestety po próbach związanych ze strojeniem tego regulatora nie jestem pewny czy to na pewno jest dobrze napisane :P
+
+Każda wartość współczynnika Kd różna od zera zamiast wypłaszczać wykres tylko zwiększała rozstrzał pomiędzy kolejnymi wartościami. 
 
 ## Zadanie 2 - otoczka wypukła
 Kod znajdujący otoczkę wypukłą zbioru punktów znajduje się w pliku `./zad2/quickhull.cpp`
